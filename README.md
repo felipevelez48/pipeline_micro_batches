@@ -65,9 +65,13 @@ python src/init_db.py
 python src/pipeline_dos.py
 ```
   -Lee los CSV de data/ (excepto validation.csv).
+
   -Inserta eventos en eventos y actualiza métricas en estadisticas.
+
   -Muestra métricas por batch.
+
   -Valida antes y después con validation.csv.
+  
   - Compara el resultado del script vs. el direct query a la base de datos.
 
 ## 🧩 Detalles técnicos
