@@ -1,0 +1,14 @@
+# Entorno virtual
+venv/
+
+# Base de datos local
+pragma_test.db
+
+# Archivos __pycache__
+__pycache__/
+
+# Archivos de sistema (Windows)
+*.pyc
+*.pyo
+*.DS_Store
+*.log
