@@ -58,21 +58,21 @@ pip install -r requirements.txt
 ```bash
 python src/init_db.py
 ```
-      - Crea pragma_test.db y tablas eventos & estadisticas
+    - Crea pragma_test.db y tablas eventos & estadisticas
 
 4. Procesar micro-batches
 ```bash
 python src/pipeline_dos.py
 ```
-      -Lee los CSV de data/ (excepto validation.csv).
+    -Lee los CSV de data/ (excepto validation.csv).
 
-     -Inserta eventos en eventos y actualiza métricas en estadisticas.
+    -Inserta eventos en eventos y actualiza métricas en estadisticas.
 
-     -Muestra métricas por batch.
+    -Muestra métricas por batch.
 
-     -Valida antes y después con validation.csv.
+    -Valida antes y después con validation.csv.
 
-      - Compara el resultado del script vs. el direct query a la base de datos.
+    - Compara el resultado del script vs. el direct query a la base de datos.
 
 ## 🧩 Detalles técnicos
 
